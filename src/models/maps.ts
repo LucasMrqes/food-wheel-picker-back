@@ -32,7 +32,7 @@ interface PlusCode {
     global_code: string;
 }
 
-interface Result {
+export interface Result {
     business_status: string;
     geometry: Geometry;
     icon: string;
